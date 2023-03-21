@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(219, 213, 213);
+    background-size: cover;
+    position: static;
+}
+
+.login{
+    width:500px;
+    height: 400px;
+}
+.login form{
+    height: 300px;
+    width:350px;
+    background-color: gray;
+    position:relative;
+    left:150%;
+    top: 8%;
+    padding:20px;
+}
+.login input[type="text"], .login input[type="password"], .login input[type="email"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid blue;
+    background: transparent;
+    width: 200px;
+    margin-bottom:40px;
+    align-content: center;
+    display: inline-block;
+}
+.login input[type="button"]{
+    background-color:green;
+    border-radius:30px;
+    width:80px;
+    height:30px;
+    margin-left:100px;
+}
+.login a{
+    text-decoration:none;
+}
+.login p{
+    font-size: 20px;
+    text-align: center;
+    
+}
