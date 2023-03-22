@@ -17,13 +17,36 @@ body{
     top: 8%;
     padding:20px;
 }
-.login input[type="text"], .login input[type="password"], .login input[type="email"]{
+.login input[type="text"]{
     border:none;
     outline:none;
     border-bottom: 2px solid blue;
     background: transparent;
     width: 200px;
     margin-bottom:40px;
+    align-content: center;
+    display: inline-block;
+    margin-left:20px;
+}
+.login input[type="email"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid blue;
+    background: transparent;
+    width: 200px;
+    margin-bottom:40px;
+    align-content: center;
+    display: inline-block;
+    margin-left:45px;
+}
+.login input[type="password"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid blue;
+    background: transparent;
+    width: 200px;
+    margin-bottom:40px;
+    margin-left: 20px;
     align-content: center;
     display: inline-block;
 }
